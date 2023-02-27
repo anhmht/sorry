@@ -57,7 +57,7 @@
     </div>
 
     <audio ref="audio" controls autoplay loop style="display: none">
-      <source src="/music.mp3" />
+      <source :src="$config.baseUrl + 'music.mp3'" />
     </audio>
   </div>
 </template>
