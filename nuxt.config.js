@@ -74,4 +74,10 @@ export default {
       }
     },
   },
+  generate: {
+    dir: "dist",
+  },
+  router: {
+    base: "/sorry/",
+  },
 };
