@@ -80,4 +80,7 @@ export default {
   router: {
     base: "/sorry/",
   },
+  publicRuntimeConfig: {
+    baseUrl: process.env.NODE_ENV === "production" ? "/sorry/" : "",
+  },
 };
