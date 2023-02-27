@@ -78,6 +78,6 @@ export default {
     dir: "dist",
   },
   router: {
-    base: "/",
+    base: "/sorry/",
   },
 };
